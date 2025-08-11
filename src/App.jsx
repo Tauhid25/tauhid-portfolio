@@ -1,17 +1,16 @@
-
-import './App.css'
+import "./App.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
- 
-
   return (
     <>
-     
-      <h1 className='text-3xl'>Tauhidur Rahman</h1>
-   
-    
+      <Navbar></Navbar>
+      <Home></Home>
+      <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
